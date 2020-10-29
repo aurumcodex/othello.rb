@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     othello (0.1.0)
-      rainbow (= 3.0.0)
+      rainbow (~> 3.0.0)
 
 GEM
   remote: https://rubygems.org/

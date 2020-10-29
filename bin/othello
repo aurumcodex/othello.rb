@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+require "rainbow/refinement"
 require "othello"
 
+using Rainbow
+
 puts Othello::VERSION
+puts "henlo werld".blue
+puts "oh, green world, don't forget me now".black.bg(:green)
